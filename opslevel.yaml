@@ -1,0 +1,26 @@
+service:
+  name: Test API
+  owner: Cloud9
+  description: "This is an API for data manipulation"
+  tier: Tier_1
+  product: Enablement
+  language: C#
+  tags:
+  - key: env
+    value: prod
+tools:
+  - name: Confluence
+    category: runbooks
+    url: http://company.atlassian.com/confluence/runbooks
+  - name: Dynatrace
+    category: metrics
+    url: https://app.datadog.com/your_dashboard?env=prod
+    environment: Production
+  - name: Elasticsearch
+    category: metrics
+    url: https://app.datadog.com/your_dashboard?env=staging
+    environment: Staging
+  dependencies:
+    - alias: recommendation_service
+      notes: Provides products recommendations to enhance the users shopping experience
+    - alias: suggestions_service

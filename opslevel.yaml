@@ -24,3 +24,12 @@ tools:
     - alias: recommendation_service
       notes: Provides products recommendations to enhance the users shopping experience
     - alias: suggestions_service
+service:
+  name: Opslevel Demo Services
+  lifecycle: generally_available
+  tier: tier_2
+  product:
+  owner: platform
+  language: Go
+  framework: Cobra
+  description: "`Demo Services` is a command line tool that enables you to import"

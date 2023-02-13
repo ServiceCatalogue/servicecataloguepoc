@@ -3,25 +3,32 @@ version: 1
 service:
   name: TestAPI
   lifecycle:
-  tier:
-  product:
-  owner:
-  language:
+  tier: Tier_1
+  product: Enablement
+  owner: Cloud9
+  language: C#
   framework:
-  description:
+  description: "This is an API for data manipulation"
   aliases:
   tags:
-  - key: app.kubernetes.io/instance
-    value: ac-connector-cars-avisbudget
-  - key: app.kubernetes.io/managed-by
-    value: Helm
-  - key: app.kubernetes.io/name
-    value: nextgen-app-deployment
-  - key: helm.sh/chart
-    value: nextgen-app-deployment-0.5.0
+  - key: env
+    value: QA
   - key: imported
-    value: kubectl-opslevel
+    value: imported-manually
   repositories:
   tools:
+  - name: Confluence
+    category: runbooks
+    url: http://company.atlassian.com/confluence/runbooks
+  - name: Dynatrace
+    category: metrics
+    url: https://app.datadog.com/your_dashboard?env=prod
+    environment: Production
+  - name: Elasticsearch
+    category: metrics
+    url: https://app.datadog.com/your_dashboard?env=staging
+    environment: Staging
   dependencies:
-  - alias: test-service
+  - alias: recommendation_service
+    notes: Provides products recommendations to enhance the users shopping experience
+  - alias: suggestions_service

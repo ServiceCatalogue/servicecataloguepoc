@@ -20,14 +20,19 @@ service:
   - name: Confluence
     category: runbooks
     url: http://company.atlassian.com/confluence/runbooks
-  - name: Dynatrace
+  - name: PagerDuty
+    category: incidents
+    url: https://your_account.pagerduty.com/services/PH99999
+    environment: Production
+  - name: Datadog
     category: metrics
     url: https://app.datadog.com/your_dashboard?env=prod
     environment: Production
-  - name: Elasticsearch
+  - name: Datadog
     category: metrics
     url: https://app.datadog.com/your_dashboard?env=staging
     environment: Staging
   dependencies:
-    notes: Provides products recommendations to enhance the users shopping experience
-  - alias: suggestions_service
+    - alias: recommendation_service
+      notes: Provides products recommendations to enhance the users shopping experience
+    - alias: suggestions_service

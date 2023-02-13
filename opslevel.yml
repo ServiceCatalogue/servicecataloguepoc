@@ -1,0 +1,27 @@
+---
+version: 1
+service:
+  name: TestAPI
+  lifecycle:
+  tier:
+  product:
+  owner:
+  language:
+  framework:
+  description:
+  aliases:
+  tags:
+  - key: app.kubernetes.io/instance
+    value: ac-connector-cars-avisbudget
+  - key: app.kubernetes.io/managed-by
+    value: Helm
+  - key: app.kubernetes.io/name
+    value: nextgen-app-deployment
+  - key: helm.sh/chart
+    value: nextgen-app-deployment-0.5.0
+  - key: imported
+    value: kubectl-opslevel
+  repositories:
+  tools:
+  dependencies:
+  - alias: test-service

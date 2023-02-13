@@ -17,9 +17,10 @@ service:
     value: imported-manually
   repositories:
   tools:
+  tools:
   - name: Confluence
     category: runbooks
-    url: https://confluence.cxloyalty.com
+    url: http://company.atlassian.com/confluence/runbooks
   - name: PagerDuty
     category: incidents
     url: https://your_account.pagerduty.com/services/PH99999

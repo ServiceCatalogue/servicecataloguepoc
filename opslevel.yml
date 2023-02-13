@@ -1,14 +1,14 @@
 ---
 version: 1
 service:
-  name: TestAPI
+  name: ServiceCataloguePOC
   lifecycle:
   tier: Tier_1
   product: Enablement
   owner: Cloud9
-  language: C#
+  language: Python
   framework:
-  description: "This is an API for data manipulation"
+  description: "This is a test API for testing purpose"
   aliases:
   tags:
   - key: env
@@ -19,7 +19,7 @@ service:
   tools:
   - name: Confluence
     category: runbooks
-    url: http://company.atlassian.com/confluence/runbooks
+    url: https://confluence.cxloyalty.com/
   - name: PagerDuty
     category: incidents
     url: https://your_account.pagerduty.com/services/PH99999

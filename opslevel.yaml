@@ -1,5 +1,5 @@
 service:
-  name: Test API
+  name: TestAPI
   owner: Cloud9
   description: "This is an API for data manipulation"
   tier: Tier_1

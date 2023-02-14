@@ -17,7 +17,6 @@ service:
     value: imported-manually
   repositories:
   tools:
-  tools:
   - name: Confluence
     category: runbooks
     url: http://company.atlassian.com/confluence/runbooks

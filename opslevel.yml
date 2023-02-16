@@ -19,7 +19,7 @@ service:
   tools:
   - name: Confluence
     category: runbooks
-    url: http://company.atlassian.com/confluence/runbooks
+    url: https://confluence.cxloyalty.com/display/EN/Service+Catalog
   - name: PagerDuty
     category: incidents
     url: https://your_account.pagerduty.com/services/PH99999

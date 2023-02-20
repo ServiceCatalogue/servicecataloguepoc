@@ -5,7 +5,7 @@ service:
   lifecycle:
   tier: Tier_1
   product: Enablement
-  owner: New_owner
+  owner: Flights
   language: Python
   framework:
   description: "This is a test API for testing purpose"

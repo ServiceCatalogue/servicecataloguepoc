@@ -33,6 +33,6 @@ service:
     url: https://app.datadog.com/your_dashboard?env=staging
     environment: Staging
   dependencies:
-    - alias: recommendation_service
+    - alias: activity-content-service-nextgen-app-deployment
       notes: Provides products recommendations to enhance the users shopping experience
     - alias: suggestions_service

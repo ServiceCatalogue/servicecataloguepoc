@@ -35,4 +35,4 @@ service:
   dependencies:
     - alias: activity-content-service-nextgen-app-deployment
       notes: Provides products recommendations to enhance the users shopping experience
-    - alias: suggestions_service
+    - alias: activity-usg-nextgen-app-deployment

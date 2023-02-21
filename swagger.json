@@ -1,12 +1,7 @@
 {
-  "openapi": "2.0",
+  "openapi": "3.0.0",
   "info": {
     "title": "Simple API overview",
-    "version": "v2"
-  },
-  "paths": {
-  },
-  "consumes": [
-    "application/json"
-  ]
+    "version": "v1"
+  }
 }

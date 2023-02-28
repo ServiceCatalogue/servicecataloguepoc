@@ -2,14 +2,14 @@
 version: 1
 service:
   name: ServiceCataloguePOC
-  lifecycle:
+  lifecycle: alpha
   tier: Tier_1
   product: Enablement
   owner: Flights
   language: Python
   framework: Django
   description: "This is a test API for testing purpose"
-  aliases: alpha
+  aliases: 
   tags:
   - key: env
     value: QA

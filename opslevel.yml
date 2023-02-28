@@ -7,9 +7,9 @@ service:
   product: Enablement
   owner: Flights
   language: Python
-  framework:
+  framework: Django
   description: "This is a test API for testing purpose"
-  aliases:
+  aliases: alpha
   tags:
   - key: env
     value: QA

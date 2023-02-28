@@ -22,18 +22,18 @@ service:
   - name: Confluence
     category: runbooks
     url: https://confluence.cxloyalty.com/display/EN/Service+Catalog
-  - name: PagerDuty
+  - name: Dynatrace
     category: incidents
-    url: https://your_account.pagerduty.com/services/PH99999
-    environment: Production
-  - name: Datadog
+    url: https://sso.dynatrace.com/#email-verification-page
+    environment: QA
+  - name: Grafana-Service-Dashboard
     category: metrics
-    url: https://app.datadog.com/your_dashboard?env=prod
-    environment: Production
-  - name: Datadog
+    url: https://grafana.qa.cnxloyalty.com/d/QXEgvx1Vz/opslevel-dashboard?orgId=1
+    environment: QA
+  - name: Prometheus
     category: metrics
-    url: https://app.datadog.com/your_dashboard?env=staging
-    environment: Staging
+    url: https://kube-prometheus.qa.cnxloyalty.com/prometheus
+    environment: QA
   dependencies:
     - alias: activity-content-service-nextgen-app-deployment
       notes: Provides products recommendations to enhance the users shopping experience

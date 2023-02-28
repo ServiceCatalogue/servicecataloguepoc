@@ -3,7 +3,7 @@ version: 1
 service:
   name: ServiceCataloguePOC
   lifecycle: alpha
-  tier: Tier_1
+  tier: Tier_3
   product: Enablement
   owner: Flights
   language: Python

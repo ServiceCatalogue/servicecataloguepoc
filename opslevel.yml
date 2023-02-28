@@ -23,7 +23,7 @@ service:
     category: runbooks
     url: https://confluence.cxloyalty.com/display/EN/Service+Catalog
   - name: Jira
-    category: scrum
+    category: issue_tracking
     url: https://jira.cxloyalty.com/secure/RapidBoard.jspa?rapidView=2007&projectKey=CLOUD9SC
   - name: Dynatrace
     category: incidents

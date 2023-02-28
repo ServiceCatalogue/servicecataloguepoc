@@ -8,7 +8,7 @@ service:
   owner: Flights
   language: Python
   framework: Django
-  description: "This is a test API for testing purpose"
+  description: "This is a test Service for Demo purpose"
   aliases: 
   tags:
   - key: env

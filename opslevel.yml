@@ -22,6 +22,9 @@ service:
   - name: Confluence
     category: runbooks
     url: https://confluence.cxloyalty.com/display/EN/Service+Catalog
+  - name: Jira
+    category: scrum
+    url: https://jira.cxloyalty.com/secure/RapidBoard.jspa?rapidView=2007&projectKey=CLOUD9SC
   - name: Dynatrace
     category: incidents
     url: https://sso.dynatrace.com/#email-verification-page
@@ -33,7 +36,7 @@ service:
   - name: Prometheus
     category: metrics
     url: https://kube-prometheus.qa.cnxloyalty.com/prometheus
-    environment: QA
+    environment: QA 
   dependencies:
     - alias: activity-content-service-nextgen-app-deployment
       notes: Provides products recommendations to enhance the users shopping experience
